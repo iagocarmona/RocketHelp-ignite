@@ -25,7 +25,49 @@ export function Home() {
   )
   const [orders, setOrders] = useState<OrderProps[]>([
     {
-      id: '123',
+      id: '1',
+      patrimony: '123456',
+      when: '18/07/2022 às 10:00',
+      status: 'open',
+    },
+    {
+      id: '2',
+      patrimony: '123456',
+      when: '18/07/2022 às 10:00',
+      status: 'open',
+    },
+    {
+      id: '3',
+      patrimony: '123456',
+      when: '18/07/2022 às 10:00',
+      status: 'open',
+    },
+    {
+      id: '4',
+      patrimony: '123456',
+      when: '18/07/2022 às 10:00',
+      status: 'open',
+    },
+    {
+      id: '5',
+      patrimony: '123456',
+      when: '18/07/2022 às 10:00',
+      status: 'open',
+    },
+    {
+      id: '6',
+      patrimony: '123456',
+      when: '18/07/2022 às 10:00',
+      status: 'open',
+    },
+    {
+      id: '7',
+      patrimony: '123456',
+      when: '18/07/2022 às 10:00',
+      status: 'open',
+    },
+    {
+      id: '8',
       patrimony: '123456',
       when: '18/07/2022 às 10:00',
       status: 'open',
@@ -101,7 +143,7 @@ export function Home() {
             </Center>
           )}
         />
-        <Button title="Nova solicitação" onPress={handleNewOrder} />
+        <Button title="Nova solicitação" onPress={handleNewOrder} mt={3} />
       </VStack>
     </VStack>
   )
